@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gorev-takip"
+version = "1.0.0"
+description = "Basit bir komut satırı görev yöneticisi"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "EG SOFTWARE" }]
+
+[project.scripts]
+gorev-takip = "gorev_takip.cli:main"
+
+[tool.setuptools]
+packages = ["gorev_takip"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

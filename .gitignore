@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Sanal ortam
+.venv/
+venv/
+env/
+
+# Test / araçlar
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editörler (VS Code ayarları paylaşılıyor, kişisel dosyalar değil)
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# İşletim sistemi
+.DS_Store
+Thumbs.db
